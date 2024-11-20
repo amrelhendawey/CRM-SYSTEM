@@ -9,7 +9,7 @@ import TicketsModal from "../../Components/AdminDashboard/tickets/TicketsModal";
 function UserDashboard() {
   const detail = [
     {
-      title: " البرمجه",
+      title: "البرمجة",
       content: "لم يتم البدء",
       icon: <FaCode className="w-6 h-6 text-black" />,
     },
@@ -26,26 +26,26 @@ function UserDashboard() {
     },
   ];
   const Time = [
+    { day: "الاثنين" },
+    { day: "الاحد" },
     { day: "السبت" },
-    { day: "السبت" },
-    { day: "السبت" },
-    { day: "السبت" },
-    { day: "السبت" },
-    { day: "السبت" },
+    { day: "الخميس" },
+    { day: "الاربعاء" },
+    { day: "الثلاثاء" },
   ];
   const chat = [
-    { id: 1, content: "admin", email: "aaaa@gmail.com" },
-    { id: 2, content: "admin", email: "aaaa@gmail.com" },
-    { id: 3, content: "admin", email: "aaaa@gmail.com" },
-    { id: 4, content: "admin", email: "aaaa@gmail.com" },
+    { id: 1, content: "أحمد", email: "ahmed@gmail.com" },
+    { id: 2, content: "محمد", email: "mohamed@gmail.com" },
+    { id: 3, content: "محمود", email: "mahmoud@gmail.com" },
+    { id: 4, content: "ابراهيم", email: "ibrahim@gmail.com" },
   ];
   return (
     <div className="UserControl bg-[#292929] text-white p-10 text-right">
       <div className="flex items-center justify-between">
         <button className="text-[red]">تسجيل الخروج</button>
         <div className="text-right">
-          <h3 className="text-[30px] mb-5">لوحة التحكم</h3>
-          <p className="pr-4 text-[#959595]">مرحبا اسم العميل</p>
+          <h3 className="text-[30px] mb-5 mr-5">لوحة التحكم</h3>
+          <p className="mb-5 text-[#959595] mr-5">مرحبا اسم العميل</p>
         </div>
       </div>
       <div className="mt-8 mr-5">
@@ -114,8 +114,8 @@ function UserDashboard() {
           ))}
         </div>
       </div>
-      <h5 className="mb-5 text-xl">الاوقات المحجوزة</h5>
-      <h5 className="mb-5 text-xl">العقود</h5>
+      <h5 className="mb-5 mr-5 text-xl">الاوقات المحجوزة</h5>
+      <h5 className="mb-5 mr-5 text-xl">العقود</h5>
     </div>
   );
 }
