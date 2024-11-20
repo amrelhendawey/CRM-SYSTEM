@@ -45,7 +45,7 @@ function UserDashboard() {
         <button className="text-[red]">تسجيل الخروج</button>
         <div className="text-right">
           <h3 className="text-[30px] mb-5 mr-5">لوحة التحكم</h3>
-          <p className="mb-5 text-[#959595] mr-5">مرحبا اسم العميل</p>
+          <p className="mb-5 text-[#959595] mr-5">مرحبا مشاري راشد </p>
         </div>
       </div>
       <div className="mt-8 mr-5">
