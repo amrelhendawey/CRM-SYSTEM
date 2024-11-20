@@ -70,7 +70,7 @@ function UserDashboard() {
         <h5 className="mb-5 text-xl">تحدث مع احد المسئولين</h5>
         <div className="overflow-x-auto rounded-lg">
           <table className="table text-right ">
-            <thead className="sticky top-0 bg-[#333] shadow-md">
+            <thead className="bg-[#333] shadow-md">
               <tr>
                 <th className="p-4 text-center text-gray-300 border-b border-gray-500">
                   أرسل رسالة
@@ -86,13 +86,13 @@ function UserDashboard() {
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="bg-black">
               {chat.map((item) => (
                 <tr
                   className="border-b border-gray-500 hover:bg-[#444]"
                   key={item.id}
                 >
-                  <td className="p-4 text-center">
+                  <td className="p-4 text-center ">
                     <ChatModal />
                   </td>
                   <td className="p-4 text-center">
