@@ -8,6 +8,9 @@ import AdminDashboardPage from "./Pages/AdminPages/AdminDashboardPage";
 import AdminChatPage from "./Pages/AdminPages/AdminChatPage";
 import UserDashboard from "./Pages/UserPages/UserDashboard";
 import AdminConfirmClient from "./Pages/AdminPages/AdminConfirmClient";
+import RegisterComp from "./Components/Forms/User/RegisterComp";
+import SignINPage from "./Pages/UserPages/SignINPage";
+import Sign from "./Pages//AdminPages/AdminSignINPage";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/chat" element={<AdminChatPage />} />
         <Route path="/user" element={<UserDashboard />} />
         <Route path="/confirmClients" element={<AdminConfirmClient />} />
+        <Route path="/RegisterComp" element={<RegisterComp />} />
+        <Route path="/SignINPage" element={<SignINPage />} />
+        <Route path="/AdminSignINPage" element={<Sign />} />
       </Routes>
     </div>
   );

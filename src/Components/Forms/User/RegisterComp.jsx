@@ -1,9 +1,8 @@
 import React from "react";
 import leftSideimage from "../../../assets/Media/Dashboard Login Page illustration.png";
 import topLeftSideimage from "../../../assets/Media/top.png";
-import Form from "./Form/Form";
+import RegisterPage from "../../../Pages/UserPages/RegisterPage";
 import { Link } from "react-router-dom";
-import "./Register.css";
 
 const Register = () => {
   return (
@@ -33,7 +32,7 @@ const Register = () => {
             </Link>
           </div>
           <div className="h-[91%] flex items-center justify-around flex-col w-full">
-            <Form />
+            <RegisterPage />
           </div>
         </div>
       </div>

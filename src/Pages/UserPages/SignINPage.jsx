@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import img1 from "../../../assets/Media/Dashboard Login Page illustration.png";
-import logo from "../../../assets/Media/top.png";
+import img1 from "../../assets/Media/Dashboard Login Page illustration.png";
+import logo from "../../assets/Media/logo (2).png";
 import { Link } from "react-router-dom";
 import axios from "axios";
 function User() {

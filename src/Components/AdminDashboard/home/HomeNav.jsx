@@ -18,7 +18,7 @@ function HomeNav() {
             تسجيل الدخول
           </button>
           <button
-            onClick={() => navigate("/register")}
+            onClick={() => navigate("/RegisterComp")}
             className="rounded-3xl text-white w-fit line-clamp-2 bg-[#0A8F0A] hover:bg-[#0F430F] duration-300 shadow-sm py-2 px-4"
           >
             مستخدم جديد
@@ -32,14 +32,14 @@ function HomeNav() {
       <dialog id="my_modal_2" className="modal">
         <div className="modal-box w-[300px] flex justify-around items-center bg-[#292929] ">
           <button
-            onClick={() => navigate("/user")}
+            onClick={() => navigate("/SignINPage")}
             className="flex gap-3 rounded-3xl line-clamp-1 w-fit text-[14px] shadow-sm text-[white] py-2 px-4  hover:bg-[#0A8F0A] duration-300"
           >
             <FaUserTie className="size-5" />
             <span>مستخدم</span>
           </button>
           <button
-            onClick={() => navigate("/sign")}
+            onClick={() => navigate("/AdminSignINPage")}
             className="flex gap-3 rounded-3xl w-fit line-clamp-1 bg-[#0A8F0A] hover:bg-[#0F430F] duration-300 shadow-sm py-2 px-4"
           >
             <MdAdminPanelSettings className="size-5" />
